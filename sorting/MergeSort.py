@@ -46,7 +46,7 @@ class MergeSort :
 
 	def divide ( self , list , start , end ) :
 		if ( start < end ) :
-			mid = ( start + end ) 
+			mid = ( start + end ) / 2	
 			# print( 'left divide start - %s mid - %s ' % (start , mid ))
 			self.divide(list , start , mid) 
 			# print( 'right divide mid - %s end - %s ' % ( mid+1 , end ))
